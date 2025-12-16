@@ -1,0 +1,45 @@
+<html lang="es">
+  <head>
+    <meta charset='utf-8' />
+    <title>{{subject}}</title>
+  </head>
+  <body style='margin:0; padding:0; background-color:#f5f7fa;'>
+    <table
+      width='100%'
+      cellpadding='0'
+      cellspacing='0'
+      border='0'
+      style='background-color:#f5f7fa; padding-top:20px;'
+    >
+      <tr>
+        <td align='center'>
+          <!-- Wrapper -->
+          <table
+            width='100%'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            style='max-width:600px; background:#ffffff; border-radius:6px; overflow:hidden;'
+          >
+
+            <!-- Header -->
+            {{> header}}
+
+            <!-- Content -->
+            <tr>
+              <td
+                style='padding:30px; font-family:Arial, sans-serif; font-size:14px; color:#333333;'
+              >
+                {{{content}}}
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            {{> footer}}
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

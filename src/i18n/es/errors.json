@@ -1,0 +1,90 @@
+{
+  "user": {
+    "notFound": "Usuario no encontrado",
+    "alreadyExists": "El usuario ya existe",
+    "invalidCredentials": "Credenciales inválidas",
+    "emailAlreadyInUse": "El correo electrónico ya está en uso",
+    "phoneAlreadyInUse": "El número de teléfono ya está en uso",
+    "notVerified": "El usuario debe estar verificado para realizar esta acción",
+    "invalidStatus": "El estado del usuario no permite esta operación",
+    "transfersAlreadyUnlocked": "Las transferencias ya están desbloqueadas",
+    "transfersAlreadyLocked": "Las transferencias ya están bloqueadas",
+    "cannotDeactivateWith2FAEnabled": "El usuario no puede ser desactivado si tiene segundo factor activado",
+    "cannotUnlockWithRejectedCompliance": "No se puede desbloquear la cuenta con KYC de cumplimiento rechazado"
+  },
+  "wallet": {
+    "notFound": "Billetera no encontrada",
+    "insufficientBalance": "Saldo insuficiente",
+    "invalidAddress": "Dirección de billetera inválida",
+    "alreadyExists": "Ya existe una billetera para este usuario y moneda"
+  },
+  "transaction": {
+    "notFound": "Transacción no encontrada",
+    "failed": "La transacción ha fallado",
+    "pending": "La transacción está pendiente",
+    "invalidAmount": "Monto inválido",
+    "limitExceeded": "Límite de transacción excedido",
+    "belowMinimum": "El monto está por debajo del mínimo permitido",
+    "invalidStatus": "Estado de transacción inválido"
+  },
+  "auth": {
+    "invalidToken": "Token inválido",
+    "expiredToken": "Token expirado",
+    "tokenAlreadyUsed": "El token ya fue utilizado",
+    "unauthorized": "No autorizado para realizar esta acción",
+    "sessionExpired": "La sesión ha expirado",
+    "insufficientPermissions": "No tiene permisos suficientes",
+    "resourceAccessDenied": "Acceso denegado a este recurso",
+    "invalidCredentials": "Correo electrónico o contraseña incorrectos",
+    "accountLocked": "La cuenta ha sido bloqueada",
+    "userBlocked": "El usuario ha sido bloqueado",
+    "secondFactorAlreadyEnabled": "El segundo factor ya está activado",
+    "secondFactorNotEnabled": "El segundo factor no está activado",
+    "documentAlreadyRegistered": "El documento ya está registrado",
+    "invalidCode": "Código inválido"
+  },
+  "firebase": {
+    "app_check": {
+      "tokenMissing": "Token de verificación no proporcionado",
+      "tokenInvalid": "Token de verificación inválido",
+      "tokenExpired": "El token de verificación ha expirado",
+      "verificationFailed": "Falló la verificación de seguridad",
+      "appIdMismatch": "No coincide el ID de la aplicación"
+    }
+  },
+  "kyc": {
+    "notFound": "KYC no encontrado",
+    "invalidStatus": "KYC no tiene el estado correcto para esta operación",
+    "alreadySubmitted": "KYC ya enviado",
+    "underReview": "KYC en revisión",
+    "rejected": "KYC rechazado",
+    "documentExpired": "El documento KYC ha expirado",
+    "invalidType": "El tipo de KYC es inválido",
+    "documentNotFound": "Documento KYC no encontrado",
+    "documentInvalidStatus": "El documento debe estar en estado PENDING para ser rechazado",
+    "noDocumentsToReject": "No se proporcionaron documentos para rechazar"
+  },
+  "currency": {
+    "notFound": "Moneda no encontrada",
+    "notActive": "La moneda no está activa",
+    "networkPriceNotFound": "Precio de red no encontrado. Se requiere precio fijo",
+    "templateNotFound": "Plantilla de moneda no encontrada",
+    "chainIdNotFound": "ID de cadena no encontrado",
+    "priceNotFound": "Precio no encontrado",
+    "priceNotFoundForCurrency": "Precio no encontrado para esta moneda. Por favor, sincronice los precios primero."
+  },
+  "fee": {
+    "notFound": "Configuración de tarifa no encontrada",
+    "alreadyExists": "Ya existe una tarifa para esta moneda y operación"
+  },
+  "limit": {
+    "notFound": "Límite no encontrado",
+    "alreadyExists": "Ya existe un límite para este usuario"
+  },
+  "server": {
+    "internalError": "Ocurrió un error inesperado en el servidor",
+    "databaseError": "Falló la operación de base de datos",
+    "externalServiceError": "El servicio externo no está disponible",
+    "environmentVariableError": "Error al obtener la variable de entorno"
+  }
+}

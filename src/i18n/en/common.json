@@ -1,0 +1,15 @@
+{
+  "welcome": "Welcome",
+  "success": "Successful operation",
+  "error": "An error has occurred",
+  "notFound": "Not found",
+  "unauthorized": "Unauthorized",
+  "forbidden": "Access denied",
+  "badRequest": "Bad request",
+  "internalError": "Internal server error",
+  "created": "Successfully created",
+  "updated": "Successfully updated",
+  "deleted": "Successfully deleted",
+  "accountValidation": "Account validation"
+}
+

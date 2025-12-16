@@ -1,0 +1,15 @@
+{
+  "welcome": "Bem-vindo",
+  "success": "Operação bem-sucedida",
+  "error": "Ocorreu um erro",
+  "notFound": "Não encontrado",
+  "unauthorized": "Não autorizado",
+  "forbidden": "Acesso negado",
+  "badRequest": "Solicitação incorreta",
+  "internalError": "Erro interno do servidor",
+  "created": "Criado com sucesso",
+  "updated": "Atualizado com sucesso",
+  "deleted": "Excluído com sucesso",
+  "accountValidation": "Validação de conta"
+}
+

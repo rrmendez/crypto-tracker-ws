@@ -1,0 +1,35 @@
+{
+  "password-reset": {
+    "subject": "{appName} - Restablece tu contraseña"
+  },
+  "verification-code-email": {
+    "subject": "{appName} - Verifica tu correo electrónico para activar tu wallet"
+  },
+  "second-factor-recovery": {
+    "subject": "{appName} - Recuperación de segundo factor"
+  },
+  "second-factor-activated": {
+    "subject": "{appName} - Segundo factor de autenticación activado con éxito"
+  },
+  "second-factor-disabled": {
+    "subject": "{appName} - Segundo factor de autenticación desactivado"
+  },
+  "account-created": {
+    "subject": "{appName} - ¡Tu cuenta está lista, empieza tu viaje crypto!"
+  },
+  "password-updated": {
+    "subject": "{appName} - Tu contraseña ha sido actualizada con éxito"
+  },
+  "account-validated": {
+    "subject": "{appName} - ¡Tu cuenta ha sido verificada con éxito!"
+  },
+  "account-validation-rejected": {
+    "subject": "{appName} - No pudimos validar tu cuenta"
+  },
+  "account-limits-updated": {
+    "subject": "{appName} - Actualización de límites transaccionales en tu cuenta"
+  },
+  "new_admin_account": {
+    "subject": "{appName} - Nueva cuenta de administrador creada"
+  }
+}

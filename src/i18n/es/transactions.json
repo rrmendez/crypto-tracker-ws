@@ -1,0 +1,11 @@
+{
+  "withdraw": {
+    "processing": "Su retiro está siendo procesado",
+    "error": "Hubo un error al retirar fondos",
+    "confirmed": "Su transferencia está confirmada",
+    "onNetwork": "Su transferencia está en red"
+  },
+  "deposit": {
+    "received": "Ha recibido un depósito"
+  }
+}

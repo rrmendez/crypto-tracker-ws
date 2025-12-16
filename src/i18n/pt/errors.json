@@ -1,0 +1,90 @@
+{
+  "user": {
+    "notFound": "Usuário não encontrado",
+    "alreadyExists": "O usuário já existe",
+    "invalidCredentials": "Credenciais inválidas",
+    "emailAlreadyInUse": "O e-mail já está em uso",
+    "phoneAlreadyInUse": "O número de telefone já está em uso",
+    "notVerified": "O usuário deve ser verificado para realizar esta ação",
+    "invalidStatus": "O status do usuário não permite esta operação",
+    "transfersAlreadyUnlocked": "As transferências já estão desbloqueadas",
+    "transfersAlreadyLocked": "As transferências já estão bloqueadas",
+    "cannotDeactivateWith2FAEnabled": "O usuário não pode ser desativado se o segundo fator estiver ativado",
+    "cannotUnlockWithRejectedCompliance": "Não é possível desbloquear a conta com KYC de conformidade rejeitado"
+  },
+  "wallet": {
+    "notFound": "Carteira não encontrada",
+    "insufficientBalance": "Saldo insuficiente",
+    "invalidAddress": "Endereço de carteira inválido",
+    "alreadyExists": "Já existe uma carteira para este usuário e moeda"
+  },
+  "transaction": {
+    "notFound": "Transação não encontrada",
+    "failed": "A transação falhou",
+    "pending": "A transação está pendente",
+    "invalidAmount": "Montante inválido",
+    "limitExceeded": "Limite de transação excedido",
+    "belowMinimum": "O valor está abaixo do mínimo permitido",
+    "invalidStatus": "Status de transação inválido"
+  },
+  "auth": {
+    "invalidToken": "Token inválido",
+    "expiredToken": "Token expirado",
+    "tokenAlreadyUsed": "O token já foi utilizado",
+    "unauthorized": "Não autorizado para realizar esta ação",
+    "sessionExpired": "A sessão expirou",
+    "insufficientPermissions": "Você não tem permissões suficientes",
+    "resourceAccessDenied": "Acesso negado a este recurso",
+    "invalidCredentials": "E-mail ou senha incorretos",
+    "accountLocked": "A conta foi bloqueada",
+    "userBlocked": "O usuário foi bloqueado",
+    "secondFactorAlreadyEnabled": "O segundo fator já está ativado",
+    "secondFactorNotEnabled": "O segundo fator não está ativado",
+    "documentAlreadyRegistered": "O documento já está registrado",
+    "invalidCode": "Código inválido"
+  },
+  "firebase": {
+    "app_check": {
+      "tokenMissing": "Token de verificação não fornecido",
+      "tokenInvalid": "Token de verificação inválido",
+      "tokenExpired": "O token de verificação expirou",
+      "verificationFailed": "Falha na verificação de segurança",
+      "appIdMismatch": "ID do aplicativo não corresponde"
+    }
+  },
+  "kyc": {
+    "notFound": "KYC não encontrado",
+    "invalidStatus": "KYC não tem o estado correto para esta operação",
+    "alreadySubmitted": "KYC já enviado",
+    "underReview": "KYC em revisão",
+    "rejected": "KYC rejeitado",
+    "documentExpired": "O documento KYC expirou",
+    "invalidType": "O tipo de KYC é inválido",
+    "documentNotFound": "Documento KYC não encontrado",
+    "documentInvalidStatus": "O documento deve estar no status PENDING para ser rejeitado",
+    "noDocumentsToReject": "Nenhum documento fornecido para rejeitar"
+  },
+  "currency": {
+    "notFound": "Moeda não encontrada",
+    "notActive": "A moeda não está ativa",
+    "networkPriceNotFound": "Preço de rede não encontrado. Preço fixo é obrigatório",
+    "templateNotFound": "Modelo de moeda não encontrado",
+    "chainIdNotFound": "ID de cadeia não encontrado",
+    "priceNotFound": "Preço não encontrado",
+    "priceNotFoundForCurrency": "Preço não encontrado para esta moeda. Por favor, sincronize os preços primeiro."
+  },
+  "fee": {
+    "notFound": "Configuração de taxa não encontrada",
+    "alreadyExists": "Já existe uma taxa para esta moeda e operação"
+  },
+  "limit": {
+    "notFound": "Limite não encontrado",
+    "alreadyExists": "Já existe um limite para este usuário"
+  },
+  "server": {
+    "internalError": "Ocorreu um erro inesperado no servidor",
+    "databaseError": "Falha na operação do banco de dados",
+    "externalServiceError": "O serviço externo não está disponível",
+    "environmentVariableError": "Erro ao obter a variável de ambiente"
+  }
+}

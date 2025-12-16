@@ -1,0 +1,90 @@
+{
+  "user": {
+    "notFound": "User not found",
+    "alreadyExists": "User already exists",
+    "invalidCredentials": "Invalid credentials",
+    "emailAlreadyInUse": "Email already in use",
+    "phoneAlreadyInUse": "Phone number already in use",
+    "notVerified": "User must be verified to perform this action",
+    "invalidStatus": "User status does not allow this operation",
+    "transfersAlreadyUnlocked": "Transfers already unlocked",
+    "transfersAlreadyLocked": "Transfers already locked",
+    "cannotDeactivateWith2FAEnabled": "User cannot be deactivated if second factor is enabled",
+    "cannotUnlockWithRejectedCompliance": "Cannot unlock account with rejected compliance KYC"
+  },
+  "wallet": {
+    "notFound": "Wallet not found",
+    "insufficientBalance": "Insufficient balance",
+    "invalidAddress": "Invalid wallet address",
+    "alreadyExists": "Wallet already exists for this user and currency"
+  },
+  "transaction": {
+    "notFound": "Transaction not found",
+    "failed": "Transaction has failed",
+    "pending": "Transaction is pending",
+    "invalidAmount": "Invalid amount",
+    "limitExceeded": "Transaction limit exceeded",
+    "belowMinimum": "Amount is below the minimum allowed",
+    "invalidStatus": "Invalid transaction status"
+  },
+  "auth": {
+    "invalidToken": "Invalid token",
+    "expiredToken": "Token expired",
+    "tokenAlreadyUsed": "Token already used",
+    "unauthorized": "Unauthorized to perform this action",
+    "sessionExpired": "Session has expired",
+    "insufficientPermissions": "You do not have sufficient permissions",
+    "resourceAccessDenied": "Access to this resource is denied",
+    "invalidCredentials": "Invalid email or password",
+    "accountLocked": "Account has been locked",
+    "userBlocked": "User has been blocked",
+    "secondFactorAlreadyEnabled": "Second factor already enabled",
+    "secondFactorNotEnabled": "Second factor not enabled",
+    "documentAlreadyRegistered": "Document already registered",
+    "invalidCode": "Invalid code"
+  },
+  "firebase": {
+    "app_check": {
+      "tokenMissing": "Verification token not provided",
+      "tokenInvalid": "Invalid verification token",
+      "tokenExpired": "Verification token has expired",
+      "verificationFailed": "Security verification failed",
+      "appIdMismatch": "Application ID mismatch"
+    }
+  },
+  "kyc": {
+    "notFound": "KYC not found",
+    "invalidStatus": "KYC has an invalid status for this operation",
+    "alreadySubmitted": "KYC already submitted",
+    "underReview": "KYC under review",
+    "rejected": "KYC rejected",
+    "documentExpired": "KYC document has expired",
+    "invalidType": "KYC type is invalid",
+    "documentNotFound": "KYC document not found",
+    "documentInvalidStatus": "Document must be in PENDING status to be rejected",
+    "noDocumentsToReject": "No documents provided to reject"
+  },
+  "currency": {
+    "notFound": "Currency not found",
+    "notActive": "Currency is not active",
+    "networkPriceNotFound": "Network price not found. Fixed price is required",
+    "templateNotFound": "Currency template not found",
+    "chainIdNotFound": "Chain ID not found",
+    "priceNotFound": "Price not found",
+    "priceNotFoundForCurrency": "Price not found for this currency. Please sync prices first."
+  },
+  "fee": {
+    "notFound": "Fee configuration not found",
+    "alreadyExists": "Fee already exists for this currency and operation"
+  },
+  "limit": {
+    "notFound": "Limit not found",
+    "alreadyExists": "Limit already exists for this user"
+  },
+  "server": {
+    "internalError": "An unexpected server error occurred",
+    "databaseError": "Database operation failed",
+    "externalServiceError": "External service is unavailable",
+    "environmentVariableError": "Error getting environment variable"
+  }
+}

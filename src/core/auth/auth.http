@@ -1,0 +1,28 @@
+### Sign Up
+POST http://localhost:3001/auth/signup
+Content-Type: application/json
+
+{
+  "email": "rrmendez900523@gmail.com",
+  "password": "Admin*123",
+  "firstName": "Raudel",
+  "lastName": "Rodriguez",
+  "roles": ["user"]
+}
+
+### Sign In
+POST http://localhost:3001/auth/signin
+Content-Type: application/json
+
+{
+  "email": "mendez900529@gmail.com",
+  "password": "Admin*123"
+}
+
+### Refresh Token
+POST http://localhost:3001/auth/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJybWVuZGV6OTAwNTIzQGdtYWlsLmNvbSIsInN1YiI6OSwicm9sZXMiOlsiYWRtaW4iXSwidHlwZSI6InJlZnJlc2giLCJpYXQiOjE3NTIwODU2NjAsImV4cCI6MTc1MjE3MjA2MH0.aW1CCanTKqLW4Zjr2IzTEZ0AVDr4xdJX9FuueHaaesI"
+}

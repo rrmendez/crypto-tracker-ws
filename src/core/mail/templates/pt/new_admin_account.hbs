@@ -1,0 +1,64 @@
+<h2 style='font-family:Arial, sans-serif; font-size:18px; margin:0 0 15px 0;'>
+  Olá
+  <strong style='color:#0006FF;'>{{userName}}</strong>,
+</h2>
+
+<p
+  style='font-family:Arial, sans-serif; font-size:14px; color:#666666; margin:0 0 20px 0;'
+>
+  Você foi registrado como administrador em
+  <strong style='color:#0006FF;'>{{appName}}</strong>. Para concluir o processo
+  e definir sua senha, clique no botão abaixo.
+</p>
+
+<!-- Botão centralizado -->
+<table
+  role='presentation'
+  border='0'
+  cellpadding='0'
+  cellspacing='0'
+  align='center'
+  style='margin:20px auto;'
+>
+  <tr>
+    <td align='center' bgcolor='#3336FF' style='border-radius:5px;'>
+      <a
+        href='{{baseUrl}}'
+        target='_blank'
+        style='font-family:Arial, sans-serif; font-size:14px; color:#ffffff; text-decoration:none; padding:12px 24px; display:inline-block; border-radius:5px; font-weight:bold;'
+      >
+        Ativar minha conta
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p
+  style='font-family:Arial, sans-serif; font-size:14px; color:#3336FF; word-break:break-all; margin:0 0 20px 0;'
+>
+  {{baseUrl}}
+</p>
+
+<p
+  style='font-family:Arial, sans-serif; font-size:14px; color:#666666; margin:20px 0 10px 0;'
+>
+  Este link ficará ativo por
+  {{minutes}}
+  minutos. Caso o tempo expire, você poderá solicitar um novo link entrando em
+  contato com o suporte.
+</p>
+
+<p
+  style='font-family:Arial, sans-serif; font-size:14px; color:#666666; margin:20px 0 10px 0;'
+>
+  Tem alguma dúvida? Estamos aqui para ajudar.
+</p>
+
+<p
+  style='font-family:Arial, sans-serif; font-size:14px; color:#666666; margin:20px 0 10px 0;'
+>
+  Atenciosamente,
+  <br />
+  Equipe do
+  <strong style='color:#0006FF;'>{{appName}}</strong>
+</p>

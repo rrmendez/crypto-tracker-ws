@@ -1,0 +1,7 @@
+export enum TxStatus {
+  PENDING = 'PENDING',
+  MINED = 'MINED',
+  CONFIRMED = 'CONFIRMED',
+  FAILED = 'FAILED',
+  REPLACED = 'REPLACED',
+}

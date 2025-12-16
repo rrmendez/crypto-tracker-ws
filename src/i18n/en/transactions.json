@@ -1,0 +1,11 @@
+{
+  "withdraw": {
+    "processing": "Your withdrawal is being processed",
+    "error": "There was an error withdrawing funds",
+    "confirmed": "Your transfer is confirmed",
+    "onNetwork": "Your transfer is on network"
+  },
+  "deposit": {
+    "received": "You have received a deposit"
+  }
+}
