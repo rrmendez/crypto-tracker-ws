@@ -108,7 +108,7 @@ export class UsersService {
 
     const excludeEmails = this.configService.get<string>(
       'EXCLUDE_EMAILS_FROM_USERS_LIST',
-      'mendez900529@gmail.com',
+      'vainotecnologia@gmail.com',
     );
     const excludedList = (excludeEmails || '')
       .split(',')
