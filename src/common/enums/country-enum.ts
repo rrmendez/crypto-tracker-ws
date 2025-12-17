@@ -9,6 +9,8 @@ export enum CountryEnum {
   CO = 'CO',
   MX = 'MX',
   US = 'US',
+  ES = 'ES',
+  CU = 'CU',
 }
 
 export const CountryNames: Record<CountryEnum, string> = {
@@ -22,4 +24,6 @@ export const CountryNames: Record<CountryEnum, string> = {
   [CountryEnum.CO]: 'Colombia',
   [CountryEnum.MX]: 'Mexico',
   [CountryEnum.US]: 'United States',
+  [CountryEnum.ES]: 'Spain',
+  [CountryEnum.CU]: 'Cuba',
 };
